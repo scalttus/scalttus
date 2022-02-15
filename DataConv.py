@@ -42,20 +42,4 @@ with open(source, "r") as datei:
                     # for debug
                     #print(data_list)
 
-            # hier muss ein /n an das Listenende geschrieben werden    
-            #data_list.append(temp)
-            #data_list.append(str('\n'))  
-            #with open('abc.txt', 'w') as temp_file:
-             #   for item in data_list:
-              #      temp_file.write(item)
-#file = open('abc.txt', 'r')
-#print(file.read())       
-#for i in data_list:
-#print(data_list,  end='\n') 
-#print(data_list, sep=',', end='\n', file=sys.stdout, flush=False)
-
-#print(data_list)
-
-# with open('test.csv', 'w', newline=' ') as file:
-#     writer = csv.writer(file, quoting=csv.QUOTE_NONE ,delimiter=';')
-#     writer.writerows(data_list)
+        
